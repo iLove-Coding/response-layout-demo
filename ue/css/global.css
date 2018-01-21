@@ -1,0 +1,242 @@
+	body {
+		background-color: #f1f1f1;
+		min-width: 500px;
+	}
+	
+	.wrap {
+		width: 1780px;
+		margin: 0 auto;
+	}
+	
+	.g-head {
+		height: 50px;
+		background-color: #323436;
+	}
+	
+	.g-head .head-in {
+		height: 50px;
+		margin: auto;
+	}
+	.head-in .head-left {
+		float: left;
+	}
+	.head-in .logo {
+		float: left;
+		width: 134px;
+		height: 50px;
+		background: url(../img/logo.png) no-repeat;
+		text-indent: -99999px;
+		margin-right: 26px;
+	}
+	
+	.head-in .nav {
+		float: left;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 358px;
+		align-items: center;
+		height: 50px;
+	}
+	
+	.head-in .nav li {
+		width: 66px;
+		text-align: center;
+		font-size: 14px;
+		font-family: "微软雅黑";
+		align-self: center;
+	}
+	
+	.nav a {
+		color: #818181;
+	}
+	
+	.head-in .select-nav {
+		display: none;
+		float: left;
+		width: 56px;
+		height: 50px;
+		background: #8C8C8C url(../img/openbtn.png) no-repeat center center;
+	}
+	
+	.head-in .others {
+		float: right;
+	}
+	
+	.so-form {
+		float: left;
+	}
+	
+	.so-icon {
+		float: left;
+		margin-top: 15px;
+		margin-right: 15px;
+		width: 30px;
+		height: 26px;
+		background: url(../img/so-icon.png) no-repeat;
+	}
+	
+	.select-btn {
+		float: left;
+		padding-top: 10px;
+	}
+	
+	.select-btn a {
+		float: left;
+		width: 70px;
+		height: 32px;
+		text-align: center;
+		font: 14px/32px "微软雅黑";
+	}
+	
+	.select-btn .login-btn {
+		color: #acacac;
+		background-color: #505050;
+	}
+	
+	.select-btn .register-btn {
+		color: white;
+		background-color: #6bc30d;
+	}
+	/*底部区域 start*/
+	
+	.foot {
+		height: 100px;
+		background-color: #222324;
+		overflow: hidden;
+	}
+	
+	.f-in {
+		color: #8e8e8e;
+		height: 100px;
+	}
+	
+	.f-in span {
+		font: 12px/24px "微软雅黑";
+	}
+	
+	.f-in a {
+		font: 14px/24px "微软雅黑";
+		color: #cecece;
+	}
+	
+	.link-list {
+		float: left;
+		margin-top: 19px;
+	}
+	
+	.links a {
+		float: left;
+		margin-right: 39px;
+	}
+	
+	.links span {
+		float: left;
+		margin-right: 16px;
+	}
+	
+	.weibo {
+		margin-top: 3px;
+		width: 22px;
+		height: 17px;
+		background: url(../img/icons.png) no-repeat 0 -190px;
+	}
+	
+	.banquan {
+		display: block;
+		color: #8e8e8e;
+		font: 12px/50px arial;
+	}
+	
+	.banquan a {
+		color: #62ca18;
+	}
+	
+	.logo-r {
+		float: right;
+		margin-top: 20px;
+	}
+	/*底部区域 end*/
+	/*固定导航 start*/
+	
+	.fixed-nav {
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		width: 40px;
+		height: 81px;
+	}
+	
+	.fixed-nav a {
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	
+	.fixed-nav .two-code {
+		display: block;
+		width: 20px;
+		height: 20px;
+		background-color: rgba(0, 0, 0, .2);
+		margin-bottom: 1px;
+		padding: 10px;
+	}
+	
+	.fixed-nav .return-top {
+		display: block;
+		width: 24px;
+		height: 14px;
+		background-color: rgba(51, 51, 51, .6);
+		padding: 13px 8px;
+	}
+	
+	.fixed-nav .two-code span {
+		display: block;
+		width: 18px;
+		height: 18px;
+		background: url(../img/icons.png) no-repeat -11px -111px;
+	}
+	
+	.fixed-nav .return-top span {
+		display: block;
+		width: 27px;
+		height: 13px;
+		background: url(../img/icons.png) no-repeat -98px -114px;
+	}
+	/*固定导航 end*/
+	
+	@media only all and (max-width: 1880px) {
+		.wrap {
+			width: 1180px;
+		}
+	}
+	
+	@media only all and (max-width: 1250px) {
+		.wrap {
+			width: 880px;
+		}
+		.head-in .nav {
+			display: none;
+		}
+		.head-in .select-nav {
+			display: block;
+		}
+	}
+	
+	@media only all and (max-width: 950px) {
+		.wrap {
+			width: 580px;
+		}
+		.head-in .select-nav {
+			display: block;
+		}
+		.head-in .nav {
+			display: none;
+		}
+		.links {
+			width: 446px;
+		}
+		.banquan {
+			line-height: 22px;
+		}
+	}

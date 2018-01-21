@@ -1,0 +1,252 @@
+/*----------------------------head start--------------------------*/
+
+html {
+	overflow-x: hidden;
+}
+
+.top {
+	width: 100%;
+	border-bottom: solid 1px #e9e9e9;
+	background-color: #ffffff;
+}
+
+.head {
+	height: 60px;
+}
+
+.head .logo {
+	display: inline-block;
+	width: 140px;
+	height: 100%;
+	background: url(../img/geek.png) no-repeat left center;
+	text-indent: -99999px;
+	background-size: 100%;
+}
+
+.head .logo a {
+	display: block;
+	height: 100%;
+}
+
+.head .others {
+	float: right;
+}
+
+.others .nav {
+	float: left;
+	height: 56px;
+	font: bold 16px/56px "微软雅黑";
+	margin-right: 32px;
+}
+
+.others .nav a {
+	float: left;
+	box-sizing: border-box;
+	padding: 0 12px;
+	color: #000000;
+	margin-left: 35px;
+}
+
+.others .nav .active {
+	border-bottom: 4px solid #0185f2;
+	color: #0185f2;
+}
+
+.others .search {
+	float: left;
+	width: 19px;
+	height: 18px;
+	background: url(../img/s-ico.png) no-repeat;
+	margin-top: 19px;
+	margin-right: 38px;
+}
+
+.others .login {
+	float: left;
+	padding: 0 14px;
+	background-color: #000000;
+	color: white;
+	font: 14px/30px "微软雅黑";
+	margin-top: 15px;
+}
+
+.head .list-ico {
+	float: left;
+	margin-top: 16px;
+	width: 17px;
+	height: 16px;
+	background: url(../img/list-ico.png) no-repeat;
+	display: none;
+}
+
+
+/*----------------------------head end--------------------------*/
+
+
+/*----------------------------foot start--------------------------*/
+
+.foot {
+	background-color: #1e1e1e;
+}
+
+.foot .contain {
+	height: 356px;
+	padding-top: 65px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+
+.foot .contain h4 {
+	color: white;
+	font: 18px/66px "微软雅黑";
+}
+
+.about a {
+	display: block;
+	font: 14px/37px "微软雅黑";
+	color: #a5a5a5;
+}
+
+.foot .contain .connection p {
+	font: 14px/37px "微软雅黑";
+	color: #a5a5a5;
+}
+
+.foot .contain .connection .focus span {
+	color: #dcd90a;
+}
+
+.foot .contain .connection .focus a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.foot .contain .connection .focus .weibo {
+	background: url(../img/icos.png) no-repeat;
+}
+
+.foot .contain .connection .focus .twitter {
+	background: url(../img/icos.png) no-repeat -50px 0;
+}
+
+.foot .contain .connection .focus .wechat {
+	background: url(../img/icos.png) no-repeat -100px 0;
+}
+
+.foot .contain .connection .focus .rss {
+	background: url(../img/icos.png) no-repeat -150px 0;
+}
+
+.foot .contain .connection .address {
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.foot .contain .connection .link {
+	color: #0185e5;
+}
+
+.foot .contain .support a {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.foot .contain .support .ico1 {
+	width: 68px;
+	height: 30px;
+	background: url(../img/img1.png) no-repeat;
+	background-size: 100%;
+}
+
+.foot .contain .support .ico2 {
+	width: 120px;
+	height: 25px;
+	background: url(../img/img2.png) no-repeat;
+	background-size: 100%;
+}
+
+.foot .contain .support .ico3 {
+	width: 86px;
+	height: 21px;
+	background: url(../img/img3.png) no-repeat;
+	background-size: 100%;
+}
+
+.foot .contain .twocode {
+	color: #a5a5a5;
+	width: 100px;
+}
+
+.foot .contain .twocode img {
+	width: 100%;
+}
+
+.foot .contain .twocode span {
+	display: block;
+	text-align: center;
+	font: 12px/26px "微软雅黑";
+}
+
+.foot .copyright {
+	height: 55px;
+	background-color: #000;
+	color: #5b5b5b;
+	font: 14px/55px "微软雅黑";
+}
+
+.foot .copyright .copyl {
+	float: left;
+}
+
+.foot .copyright .copyr {
+	float: right;
+}
+
+
+/*----------------------------foot end--------------------------*/
+
+@media only screen and (max-width:760px) {
+	.others .nav {
+		display: none;
+	}
+	.others .login {
+		display: none;
+	}
+	.others .search {
+		margin-right: 0;
+	}
+	.top {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	.head {
+		display: flex;
+	}
+	.head .logo {
+		margin: 0 auto;
+	}
+	.foot {
+		display: none;
+	}
+	.head {
+		height: 45px;
+	}
+	.others .search {
+		margin-top: 13px;
+	}
+	.head .list-ico {
+		display: block;
+	}
+	.i-main {
+		padding-top: 66px;
+	}
+	.main-list .bigpic {
+		height: 520px;
+	}
+}

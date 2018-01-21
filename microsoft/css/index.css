@@ -1,0 +1,360 @@
+.i-main .banner {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 48px;
+}
+
+.banner-list {
+	width: 200%;
+}
+
+.banner-list li img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner-in {
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+.banner2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 48px;
+}
+
+.banner2 img {
+	width: 100%;
+}
+
+.banner-in a,
+.banner2 a {
+	display: block;
+}
+
+.banner-tag {
+	position: absolute;
+	z-index: 1;
+	top: calc(50%);
+	margin-top: -83px;
+	left: 0;
+	padding: 0 3%;
+}
+
+.banner-tag .t-title {
+	font: 46px/68px "微软雅黑";
+	font-weight: 700;
+	box-sizing: content-box;
+}
+
+.banner-tag .t-font {
+	font: 14px/34px "微软雅黑";
+	margin-bottom: 16px;
+}
+
+.banner-tag .t-group {
+	height: 41px;
+}
+
+.banner-tag .t-group .t-action {
+	float: left;
+	font: 14px/41px "微软雅黑";
+	padding: 0 25px;
+	margin-right: 30px;
+}
+
+.banner-tag .t-group .buy {
+	background-color: black;
+	color: white;
+}
+
+.banner-tag .t-group .more {
+	color: #000000;
+}
+
+.banner-tag .t-group .t-action span:after {
+	content: ">";
+	display: inline-block;
+	width: 8px;
+	height: 13px;
+	margin-left: 12px;
+}
+
+.banner-list .dot {
+	width: 100%;
+	height: 51px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	padding: 20px 0;
+	box-sizing: border-box;
+	padding: 0 23%;
+}
+
+.banner-list .dot .item {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border: solid 1px black;
+	border-radius: 3px;
+	margin-right: 6px;
+	margin-top: 22px;
+	cursor: pointer;
+}
+
+.banner-list .dot .active {
+	background-color: black;
+}
+
+.banner-list .dot .play {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	margin-top: 22px;
+	margin-left: 25px;
+}
+
+.banner-list .dot .play:after {
+	content: "||";
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+	font-size: 12px;
+}
+
+.product-list {
+	box-sizing: border-box;
+	padding: 0 24px;
+	display: flex;
+	/*height: 372px;*/
+	justify-content: space-between;
+}
+
+.product-list li {
+	width: 25%;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 0 11px;
+	margin-bottom: 50px;
+}
+
+.product-list li img {
+	width: 100%;
+}
+
+.product-list .title {
+	margin-top: 9px;
+	font: bold 18px/30px arial;
+	margin-bottom: 3px;
+}
+
+.product-list .title a {
+	color: #0d0d0d;
+}
+
+.product-list .font {
+	font: 16px/21px arial;
+}
+
+.product-list .font a {
+	color: #0d0d0d;
+}
+
+.product-list .link {
+	font: 14px/40px arial;
+	color: #0067b8;
+}
+
+.banner2 .banner-tag {
+	color: white;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+
+.banner2 .banner-tag .buy {
+	background-color: white;
+	color: #000000;
+}
+
+.banner2 .banner-tag .t-title {
+	width: 600px;
+}
+
+.banner2 .banner-tag .t-font p {
+	font: 14px/20px "微软雅黑";
+}
+
+.produce2 {
+	width: 100%;
+}
+
+.p-head {
+	height: 30px;
+	font: bold 24px/30px "微软雅黑";
+	padding-left: 24px;
+	margin-bottom: 18px;
+}
+
+.focus {
+	width: 100%;
+	height: 80px;
+}
+
+.focus span {
+	font: 14px/30px "微软雅黑";
+	margin-right: 11px;
+}
+
+.focus a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
+}
+
+.focus a img {
+	width: 100%;
+}
+
+.banner-in .banner-1 {
+	display: none;
+}
+
+.banner2 .banner-3 {
+	display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+	.banner-tag .t-title {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.product-list {
+		flex-wrap: wrap;
+	}
+	.product-list li {
+		width: 50%;
+	}
+	.banner-list li img {
+		height: 100%;
+	}
+	.banner-in {
+		height: 511px;
+	}
+	.banner-in a {
+		height: 100%;
+	}
+	.banner2 {
+		height: 511px;
+	}
+	.banner2 a {
+		height: 100%;
+	}
+	.banner2 a img {
+		height: 100%;
+	}
+	.m-logo {
+		margin-left: 24px;
+	}
+	.others .search-form {
+		border: none;
+		width: 33px;
+	}
+	.others input {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:760px) {
+	.banner {
+		height: 709px;
+	}
+	.banner-list {
+		height: 100%;
+	}
+	.banner-in {
+		height: 100%;
+		background-color: #dadcde;
+	}
+	.banner-in .bigpic {
+		display: none;
+	}
+	.banner-in .banner-1 {
+		display: block;
+		height: 429px;
+	}
+
+	.banner-tag {
+		top: calc(75%);
+		width: 100%;
+		text-align: center;
+	}
+	.banner-tag .t-group {
+		display: flex;
+		justify-content: center;
+	}
+	.banner2 {
+		height: 657px;
+		background-color: #333333;
+	}
+	.banner2 .picture {
+		height: 379px;
+	}
+	.banner2 .banner-tag {
+		top: calc(75%);
+		width: 100%;
+		text-align: center;
+	}
+	.banner-tag .t-group .t-action {
+		margin-right: 0;
+	}
+	.banner2 .banner-tag .t-title {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:535px) {
+	.banner2 .banner-tag .t-title {
+		text-align: center;
+		padding: 0;
+	}
+	.banner-in .banner-1 {
+		height: 300px;
+	}
+	.banner {
+		height: 581px;
+	}
+	.product-list li {
+		width: 100%;
+	}
+	.banner2 {
+		height: 580px;
+	}
+	.banner2 .picture {
+		height: 300px;
+	}
+	.banner2 .banner-tag .t-title {
+		width: auto;
+	}
+	.f-list {
+		padding-left: 48px;
+	}
+	.f-list dl {
+		width: 100%;
+		text-align: left;
+	}
+		.banner2 .picture {
+		display: none;
+	}
+	.banner2 .banner-3 {
+		display: block;
+		height: 300px;
+	}
+}

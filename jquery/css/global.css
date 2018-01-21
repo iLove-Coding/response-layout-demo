@@ -1,0 +1,355 @@
+/*----------------------------head start--------------------------*/
+
+html {
+	overflow-x: hidden;
+}
+
+.g-head {
+	width: 100%;
+	height: 34px;
+	background: url(../img/jq-global-nav.png) repeat-x 0 -68px;
+	border-bottom: 1px solid #7acef4;
+}
+
+.g-head .head-icons {
+	float: left;
+	margin-left: 27px;
+	display: flex;
+}
+
+.g-head .head-icons li {
+	box-sizing: border-box;
+	width: 42px;
+	height: 34px;
+	border-left: solid 1px rgba(255, 255, 255, .1);
+	position: relative;
+}
+
+.g-head .head-icons .item5 {
+	border-right: solid 1px rgba(255, 255, 255, .1);
+}
+
+.g-head .head-icons li:before {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 33px;
+	left: -2px;
+	top: 1px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.g-head .head-icons .item5:after {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 33px;
+	right: 0;
+	top: 1px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.g-head .head-icons li a {
+	float: left;
+	height: 19px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.g-head .head-icons .item1 {
+	width: 52px;
+	border: none;
+}
+
+.g-head .head-icons .item1 a {
+	width: 52px;
+	height: 33px;
+	background: url(../img/jq-nav-icons.png) no-repeat 0 -37px;
+	margin: 0;
+	position: relative;
+	top: 2px;
+}
+
+.g-head .head-icons .item1:before,
+.g-head .head-icons .item2:before {
+	display: none;
+}
+
+.g-head .head-icons .item2 {
+	border: none;
+}
+
+
+/*.g-head .head-icons .item1 {
+	width: 19px;
+	background: url(../img/jq-nav-icons.png) no-repeat -17px -8px;
+}*/
+
+.g-head .head-icons .item2 a {
+	width: 20px;
+	background: url(../img/jq-nav-icons.png) no-repeat -67px -8px;
+}
+
+.g-head .head-icons .item3 a {
+	width: 25px;
+	background: url(../img/jq-nav-icons.png) no-repeat -114px -8px;
+}
+
+.g-head .head-icons .item4 a {
+	width: 21px;
+	background: url(../img/jq-nav-icons.png) no-repeat -166px -8px;
+}
+
+.g-head .head-icons .item5 a {
+	width: 20px;
+	background: url(../img/jq-nav-icons.png) no-repeat -215px -8px;
+}
+
+.g-head .head-links {
+	float: right;
+	margin-right: 20px;
+	display: flex;
+}
+
+.g-head .head-links li {
+	height: 34px;
+	font: 12px/34px arial;
+	padding: 0 12px;
+	border-left: solid 1px rgba(255, 255, 255, .1);
+	position: relative;
+}
+
+.g-head .head-links li a {
+	display: block;
+}
+
+.g-head .head-links .last-item {
+	border-right: solid 1px rgba(255, 255, 255, .1);
+}
+
+.g-head .head-links .last-item:after {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 33px;
+	right: 0;
+	top: 1px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.g-head .head-links li:before {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 33px;
+	left: -2px;
+	top: 1px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.g-head .head-links li a {
+	color: #e6e6e6;
+}
+
+
+/*----------------------------head end--------------------------*/
+
+
+/*----------------------------foot start--------------------------*/
+
+.g-foot {
+	width: 100%;
+	background: url(../img/bg-footer-noise.jpg) repeat;
+	border-top: 1px solid #7acef4;
+	/*background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0)), url(../img/bg-footer-noise.jpg);*/
+	/*background-repeat: repeat-x repeat-y;*/
+	margin-top:-20px;
+	padding-top:20px;
+}
+
+.g-foot-in {
+	box-sizing: border-box;
+	padding-top: 45px;
+	color: #777777;
+}
+
+.g-foot-in h3 {
+	height: 10px;
+	width: 548px;
+	border: solid 1px #000000;
+	margin: 0 auto;
+	border-radius: 4px;
+	border-bottom: none;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.g-foot-in h3:after {
+	content: "";
+	display: block;
+	border: solid 1px rgba(255, 255, 255, .1);
+	height: 6px;
+	border-radius: 4px;
+	border-bottom: none;
+	width: 544px;
+	position: absolute;
+	top: 1px;
+}
+
+.g-foot-in h3 span {
+	width: 67px;
+	height: 36px;
+	font: bold 16px/36px arial;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #777777;
+	position: relative;
+	z-index: 2;
+	top: -16px;
+	background: url(../img/bg-footer-noise.jpg) repeat;
+}
+
+.book-list {
+	display: flex;
+	width: 547px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.book-list li {
+	width: 33.33333%;
+	text-align: center;
+}
+
+.book-list li a {
+	display: inline-block;
+	width: 92px;
+	height: 114px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: solid 1px rgba(255, 255, 255, .1);
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+
+.book-list li a:hover {
+	border-color: rgba(255, 255, 255, 1);
+}
+
+.book-list li img {
+	width: 100%;
+	height: 100%;
+}
+
+.book-list li p {
+	font: 12px/14px arial;
+	color: white;
+}
+
+.book-list li cite {
+	font: 12px/14px arial;
+	color: #aaaa94;
+}
+
+.legal {
+	border-top: solid 1px #080808;
+	position: relative;
+	overflow: hidden;
+}
+
+.legal:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	top: 0;
+	border-top: solid 1px rgba(255, 255, 255, .1);
+}
+
+.legal .site-links {
+	float: right;
+}
+
+.legal .site-links li {
+	float: left;
+	margin-right: 23px;
+	font: 12px/44px arial;
+}
+
+.legal .site-links li a {
+	color: #aaaaaa;
+}
+
+.legal .site-links li a:hover {
+	color: white;
+}
+
+.legal .copyright {
+	float: left;
+	font: 12px/24px arial;
+	color: #777777;
+	font-family: "source-code-pro", Consolas, monospace !important;
+}
+
+.legal .copyright span {
+	display: block;
+	color: #aaaaaa;
+}
+
+.legal .copyright a {
+	color: #aaaaaa;
+}
+
+.legal .copyright a:hover {
+	color: white;
+}
+
+
+/*----------------------------foot end--------------------------*/
+
+@media only screen and (max-width:980px) {
+	.book-list {
+		width: 420px;
+	}
+}
+
+@media only screen and (max-width:750px) {
+	.book-list {
+		width: 100%;
+	}
+	.g-foot-in h3 {
+		width: 100%;
+	}
+	.legal .site-links {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.legal .copyright {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width:600px) {
+
+	.g-head .g-head-in .head-icons {
+		display: none;
+	}
+	.g-head .g-head-in .head-links {
+		float: left;
+	}
+	.book-list  {
+		flex-wrap: wrap;
+	}
+.book-list li {
+	width: 100%;
+	margin-bottom: 7px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+	.g-head {
+		display: none;
+	}
+
+}

@@ -1,0 +1,25 @@
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wrap {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+
+@media only screen and (max-width:1240px) {
+	.wrap {
+		width: 96.14%;
+	}
+}
